@@ -1,0 +1,40 @@
+body {
+    background:url('https://tricycle.org/wp-content/uploads/2002/03/Photo-by-Tom-Barrett-on-Unsplash-for-web-1549x1125.jpg')
+}
+header {
+    background-color: rgba(30, 12, 59, 0.66);
+    text-align: center;
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    padding:5px;
+}
+#backgd {
+    background-color: rgba(250, 248, 227, 0.50);
+    background-size: cover;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+form {
+    padding:30px;
+    margin: 50px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(30, 12, 59) ;
+    font-weight: bolder;
+}
+#done {
+    margin: 10px;
+    color: rgb(30, 12, 59) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: medium;
+    font-weight: bold;
+}
+footer {
+    background-color: rgba(30, 12, 59, 0.66);
+    text-align: center;
+    color: snow;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}

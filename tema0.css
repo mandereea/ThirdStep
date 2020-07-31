@@ -1,0 +1,167 @@
+body {
+    background: url('https://diytoolkit.org/media/collective-intelligence_lrg.jpg');
+    background-size: cover;
+}
+header {
+    background-color: rgba(30, 12, 59, 0.66);
+
+}
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+.navbar {
+    width: 80%;
+    margin: 0 auto;
+}
+.logo {
+    float:left;
+    font-family: 'Open Sans', sans-serif;
+    color: snow;
+
+}
+nav {
+    float: right;
+}
+nav ul {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+nav li {
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 33px;
+    position: relative;
+}
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+}
+nav a:hover {
+    color: wheat;
+
+}
+nav a::before {
+    content: '';
+    display: block;
+    height: 8px;
+    background-color:rgba(30, 12, 59, 0.66);
+  
+    position: absolute;
+    top: 0;
+    width: 0%;
+  
+    transition: all ease-in-out 250ms;
+}
+nav a:hover::before {
+    width: 100%;
+}
+
+.container {
+    float: right;
+    width: 222px;
+    margin: 11px;
+}
+.container button {
+        float: right;
+        margin:5px;
+        padding: 8px 16px;
+        border: 0;
+        outline: 0;
+        color: rgb(255, 255, 255);
+        background: rgb(27, 188, 155);
+        font-size: 16px;
+        text-transform: uppercase;
+        font-family: 'Open Sans', sans-serif;
+        border-radius: 2px;
+        box-shadow: 0 4px 0 darken(rgb(27, 188, 155), 5%)
+    
+}
+#loginButton:active {
+        margin-top: 2px;
+        box-shadow: 0 2px 0 darken(rgb(27, 188, 155), 5%)
+
+}
+    
+#loginContainer {
+    position: relative;
+}
+
+#loginForm {
+    display:none;
+    position: absolute;
+    padding: 20px;
+    margin-top: 30px;
+    background:rgb(247, 234, 210);
+    border-radius: 4px;
+    box-shadow: 0 4px 0 darken(rgb(221, 221, 221), 5%)
+}
+#loginForm input {
+      width: 91%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 0;
+      outline: 0;
+      background: rgb(241, 241, 241);
+      font-weight: 300;
+      font-style: italic;
+      border-radius: 2px
+}
+#loginForm input:last-child {
+      width: 100%;
+      margin-bottom: 0;
+      color: rgb(255, 255, 255);
+      background: rgb(27, 188, 155);
+      font-style: normal;
+      font-size: 16px;
+      font-family: 'Open Sans', sans-serif;
+      box-shadow: 0 4px 0 darken(rgb(27, 188, 155), 5%);
+}
+main {
+    background-color: rgba(250, 248, 227, 0.66);
+    background-size: cover;
+    margin-right: 136px;
+    margin-left: 136px;
+}
+main h1 {
+    margin: 11px;
+    padding:5px;
+    font-family: 'Montserrat', sans-serif;
+    color:  rgb(30, 12, 59);
+    font-weight: bold;
+}
+span {
+    color:rgb(27, 188, 155) ; 
+   
+}
+.pickCase{
+    background-color:  rgba(250, 248, 227, 0.66);
+}
+.pickCase figure {
+    display: inline-table;
+    vertical-align: top;
+    margin:30px 40px;
+    padding:30px;
+    background-color: rgba(30, 12, 59, 0.66);
+    
+}
+figcaption {
+    padding-top: 11px;
+    font-family: 'Montserrat', sans-serif;
+    font-size:large;
+    font-weight: medium;
+    color:snow;
+}
+footer {
+    background-color: rgba(30, 12, 59, 0.66);
+    text-align: center;
+    color: snow;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}

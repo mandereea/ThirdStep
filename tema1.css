@@ -1,0 +1,54 @@
+body  {
+    background: url('https://static1.squarespace.com/static/54bf12d2e4b0f0d81bf74ee7/54cbf5cfe4b0efa694938da7/5ae2ba37575d1f4839b4e458/1563923150303/fractal-764928_1920.jpg?format=2500w');
+    background-size: cover;
+}
+header {
+    background-color: rgba(30, 12, 59, 0.66);
+    text-align: center;
+    color: snow;
+    font-family: 'Open Sans', sans-serif;
+    padding:5px;
+}
+#backgd {
+    background-color: rgba(250, 248, 227, 0.50);
+    background-size: cover;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+form {
+    padding:20px;
+    margin: 30px;
+    text-align: center;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(30, 12, 59) ;
+    font-weight: bolder;
+}
+div {
+    padding:8px;
+}
+form label {
+    font-size: larger;
+    font-weight: bolder;
+    padding: 8px;;
+}
+
+#butOn {
+    padding: 10px;
+    margin: 10px;
+    border: 0;
+    border-radius: 5px;
+    color: rgb(30, 12, 59) ;
+    font-family: 'Montserrat', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+footer {
+    background-color: rgba(30, 12, 59, 0.66);
+    text-align: center;
+    color: snow;
+    padding: 5px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: lighter;
+}
+
